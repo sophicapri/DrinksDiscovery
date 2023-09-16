@@ -1,6 +1,6 @@
 # DrinksDiscovery
 
-App that displays a list of albums and their details.
+App that displays a list of drinks and their details.
 
 
 <img src="https://github.com/sophicapri/DrinksDiscovery/blob/master/screenshots/app_tour3.gif" align="right" width="40%">
@@ -24,7 +24,7 @@ Architecture
     - core
         - network
         - ui
-    - feature-albums
+    - feature-drinks
         - presentation
         - di
         - data
