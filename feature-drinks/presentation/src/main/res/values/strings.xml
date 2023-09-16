@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="albums_of_the_day">Albums of the day</string>
+    <string name="release_date">"Release date: "</string>
+    <string name="number_of_tracks">"Number of tracks: "</string>
+    <string name="explicit_lyrics">EXPLICIT LYRICS</string>
+    <string name="album_cover">Album cover</string>
+    <string name="artist_picture">Artist picture</string>
+    <string name="album">Album</string>
+    <string name="previous_page_btn">Previous page button</string>
+    <string name="unknown_error_occured">An unknown error occurred while loading this drink information</string>
+</resources>

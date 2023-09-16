@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_feature_drinks"
+    app:startDestination="@+id/fragment_drink_list">
+
+    <fragment
+        android:id="@+id/fragment_drink_list"
+        android:name="com.scapricorne.featuredrinks.presentation.drinklist.DrinkListFragment">
+        <argument
+            android:name="drink"
+            app:argType="com.scapricorne.featuredrinks.presentation.model.Drink"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+        <action
+            android:id="@+id/go_to_drink_detail"
+            app:destination="@+id/fragment_drink_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right">
+            <argument
+                android:name="drink"
+                app:argType="com.scapricorne.featuredrinks.presentation.model.Drink" />
+        </action>
+    </fragment>
+
+    <fragment android:id="@+id/fragment_drink_detail"
+        android:name="com.scapricorne.featuredrinks.presentation.drink.DrinkDetailFragment">
+    </fragment>
+</navigation>

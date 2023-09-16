@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="Discovery.app" target="17" />
+      <module name="Discovery.core" target="17" />
+      <module name="Discovery.core.network" target="17" />
+      <module name="Discovery.core.ui" target="17" />
+      <module name="Discovery.feature-drinks" target="17" />
+      <module name="Discovery.feature-drinks.data" target="17" />
+      <module name="Discovery.feature-drinks.di" target="17" />
+      <module name="Discovery.feature-drinks.presentation" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
