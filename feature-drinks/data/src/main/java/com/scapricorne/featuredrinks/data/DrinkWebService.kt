@@ -6,5 +6,5 @@ import retrofit2.http.Query
 
 interface DrinkWebService {
     @GET("beers")
-    suspend fun getDrinks(@Query("page") pageIndex: Int): List<DrinkDto>
+    suspend fun getDrinks(@Query("page") pageIndex: Int, @Query("per_page") itemsPerPage : Int): List<DrinkDto>
 }
