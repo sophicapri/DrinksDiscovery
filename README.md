@@ -1,3 +1,6 @@
+This is a clone of a technical test I did in the past. I had to do this project from scratch. <br />
+I've only changed the API and the naming from my initial test. Everything else is the same.
+
 # DrinksDiscovery
 
 App that displays a list of drinks and their details.
