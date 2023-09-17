@@ -6,7 +6,7 @@ I've only changed the API and the naming from my initial test. Everything else i
 App that displays a list of drinks and their details.
 
 
-<img src="https://github.com/sophicapri/DrinksDiscovery/blob/master/screenshots/app_tour3.gif" align="right" width="40%">
+<img src="https://github.com/sophicapri/DrinksDiscovery/blob/main/screenshots/app_tour3.gif" align="right" width="40%">
 
 Notes
 -----
